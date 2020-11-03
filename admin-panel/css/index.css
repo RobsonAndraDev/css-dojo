@@ -9,6 +9,10 @@
   grid-template-rows: 70px auto;
 }
 
+.menuItems, #logo, .headerItems, .content, .contentArea {
+  padding: 20px;
+}
+
 .grid {
   grid-template-columns: 70px 70px 70px auto 70px 70px;
 }
@@ -27,7 +31,6 @@
 
 .menuItems {
   background-color: #102c58;
-  padding: 20px;
   list-style-type: none;
   color: #fff;
 }
@@ -39,7 +42,6 @@
 #logo {
   color: #fff;
   background-color: #051835;
-  padding: 20px;
   grid-row: 1 / span 1; 
 }
 
@@ -49,7 +51,6 @@ header {
 }
 
 .headerItems {
-  padding: 20px;
   border: 1px solid #bbb;
   border-left: #fff;
   grid-row: 1 / span 1;
@@ -88,13 +89,11 @@ header {
 
 .content {
   grid-column: 2 / span 5;
-  padding: 20px;
   color: #102c58;
 }
 
 .contentArea {
   border: 1px solid #bbb;
   color: #bbb;
-  padding: 20px;
   margin-top: 20px;
 }
