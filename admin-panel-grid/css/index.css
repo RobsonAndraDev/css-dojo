@@ -9,7 +9,7 @@
   grid-template-rows: 70px auto;
 }
 
-.menuItems, #logo, .headerItems, .content, .contentArea {
+.menuItems, .headerItems, .content, .contentArea {
   padding: 20px;
 }
 
@@ -40,6 +40,7 @@
 }
 
 #logo {
+  padding: 18px;
   color: #fff;
   background-color: #051835;
   grid-row: 1 / span 1; 

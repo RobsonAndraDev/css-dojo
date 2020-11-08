@@ -8,7 +8,7 @@ li {
  list-style-type: none;
 }
 
-.menuItems, #logo, .headerItems, .content, .contentArea {
+.menuItems, .headerItems, .content, .contentArea {
   padding: 20px;
 }
 
@@ -23,16 +23,19 @@ li {
 .boxColumn {
   flex-direction: column;
   flex: 90%;
+  height: 100vh;
 }
 
 .menu {
   flex-direction: column;
   background-color: #102c58;
+  height: 100vh;
 }
 
 .menuList {
   flex-direction: column;
   align-items: center;
+  flex: 90%;
 }
 
 .menuItems {
@@ -48,7 +51,7 @@ li {
 #logo {
   color: #fff;
   background-color: #051835;
-  font-size: 24px;
+  padding: 16px;
 }
 
 .headerItems {
@@ -73,6 +76,7 @@ li {
 
 .content {
   color: #102c58;
+  flex: 90%;
 }
 
 .contentArea {
